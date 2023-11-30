@@ -74,7 +74,7 @@ fun SongItem(song: Song) {
             .padding(16.dp)
     ){
         TextTitle(song.title)
-        TextSinger("이 노래를 부른 가수는 ${song.singer} 입니다")
+        TextSinger(song.singer)
     }
 }
 
